@@ -1,0 +1,19 @@
+@use "Colores" as c;
+.btn {
+  background-color: c.$color1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 32px;
+  :active{
+    transform: translateY(4px);
+  }
+  &_box{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
